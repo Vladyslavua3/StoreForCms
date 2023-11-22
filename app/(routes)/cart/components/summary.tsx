@@ -23,7 +23,7 @@ const Summary = () => {
 
     return (
         <div
-            className="flex items-center flex-col mt-16 rounded-lg bg-gray-50 px-4 py-6 sm:p-6 lg:col-span-5 lg:mt-0 lg:p-8 sm:h-48 sm:w-48 sm:items-start"
+            className="flex items-center flex-col mt-16 rounded-lg bg-gray-50 px-4 py-6 sm:p-6 lg:col-span-5 lg:mt-0 lg:p-8 sm:items-start"
         >
             <h2 className="text-lg font-medium text-gray-900">
                 Order summary
