@@ -1,5 +1,5 @@
 import Container from "@/components/ui/container";
-import Billboard from "@/components/billboard";
+import Billboard from "@/components/ui/billboard";
 import getBillboard from "@/actions/get-billboard";
 import getProducts from "@/actions/get-products";
 import ProductList from "@/components/productList";
