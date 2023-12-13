@@ -73,9 +73,9 @@ export function InputForm() {
                     name="phone"
                     render={({ field }) => (
                         <FormItem>
-                            <FormLabel>Phone number</FormLabel>
+                            <FormLabel>Номер телефону</FormLabel>
                             <FormControl>
-                                <Input placeholder="type your phone number" {...field} />
+                                <Input placeholder="Введiть ваш номер телефону" {...field} />
                             </FormControl>
                             <FormMessage />
                         </FormItem>
@@ -86,9 +86,9 @@ export function InputForm() {
                     name="address"
                     render={({ field }) => (
                         <FormItem>
-                            <FormLabel>Address</FormLabel>
+                            <FormLabel>Адрес</FormLabel>
                             <FormControl>
-                                <Input placeholder="type your address" {...field} />
+                                <Input placeholder="Введiть ваш адрес" {...field} />
                             </FormControl>
                             <FormMessage />
                         </FormItem>
@@ -96,12 +96,12 @@ export function InputForm() {
                 />
                 <div className="mt-6 space-y-4">
                     <div className="flex items-center justify-between border-t border-gray-200 pt-4">
-                        <div className="text-base font-medium text-gray-900">Order total</div>
+                        <div className="text-base font-medium text-gray-900">Загальна цiна</div>
                         <Currency value={totalPrice} />
                     </div>
                 </div>
                 <Button type={'submit'} disabled={items.length === 0} className="w-full mt-6">
-                    Checkout
+                    Замовити
                 </Button>
             </form>
         </Form>

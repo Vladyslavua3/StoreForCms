@@ -27,7 +27,6 @@ const Filter: FC<FilterProps> = ({
     const onClick = (id: string) => {
         const current = qs.parse(searchParams.toString());
 
-        console.log(current)
 
         const query = {
             ...current,
